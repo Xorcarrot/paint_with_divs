@@ -215,6 +215,7 @@ export class CanvasComponent implements OnInit {
 
     while (pixelTop < maxTop) {
       for (var i = 0; i < index; i++) {
+        console.log('test');
         pixelLeft++;
         let pix = new Pixel(pixelTop, pixelLeft, color);
         this.pixels.push(pix);
