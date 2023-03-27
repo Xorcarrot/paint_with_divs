@@ -1,0 +1,10 @@
+<div class="canvas" (mousedown)="paint()" (mouseup)="paintStop()">
+  <ng-container *ngFor="let pixel of pixels">
+    <div
+      class="pixel"
+      [style.top.px]="pixel.top"
+      [style.left.px]="pixel.left"
+      [style.backgroundColor]="pixel.color"
+    ></div>
+  </ng-container>
+</div>

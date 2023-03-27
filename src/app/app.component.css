@@ -1,0 +1,23 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: none;
+}
+
+.pencil {
+  position: absolute;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border: 2px solid black;
+}
